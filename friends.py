@@ -1,7 +1,6 @@
 import config
 import facebook
 from bs4 import BeautifulSoup
-import os
 import requests
 
 def get_fb():
