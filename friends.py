@@ -17,6 +17,8 @@ def get_deans():
 	soup=soup.find_all('td')	#Find all 'td tags'
 	friends=get_fb()
 	for link in soup:
-		if(link.contents[0] in friends):
+		if(link.contents==[]):
+			pass
+		elif(link.contents[0] in friends):
 			print(link.contents[0])
 get_deans()
